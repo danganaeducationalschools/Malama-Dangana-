@@ -4,48 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dangana Educational School Complex</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="School Logo" width="50"> Dangana Educational School Complex
+                <img src="assets/images/logo.png" alt="School Logo" height="50"> Dangana Educational School Complex
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="academic.html">Academics</a></li>
                     <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="staff.html">Staff</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">News & Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="text-center py-5 bg-light">
-        <h1>Welcome to Dangana Educational School Complex</h1>
-        <p>"Building a brighter future through education"</p>
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1>Welcome to Dangana Educational School Complex</h1>
+            <p>Providing quality education for a brighter future.</p>
+            <a href="admissions.html" class="btn btn-lg btn-light">Enroll Now</a>
+        </div>
     </header>
 
+    <!-- Sections -->
     <section class="container mt-5">
-        <h2>Latest Announcements</h2>
-        <p>Stay updated with school news and events.</p>
-        <a href="news.html" class="btn btn-primary">View News</a>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="assets/images/school-building.jpg" class="img-fluid rounded">
+                <h3>Our Vision</h3>
+                <p>To be a leading institution of academic excellence and moral integrity.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="assets/images/students.jpg" class="img-fluid rounded">
+                <h3>Academics</h3>
+                <p>We offer a well-structured curriculum that promotes both intellectual and moral growth.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="assets/images/sports.jpg" class="img-fluid rounded">
+                <h3>Extracurricular Activities</h3>
+                <p>From sports to arts, we encourage students to explore their talents.</p>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-white mt-5">
         <p>&copy; 2025 Dangana Educational School Complex | All Rights Reserved</p>
     </footer>
 
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
